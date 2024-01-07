@@ -1,12 +1,13 @@
 #ifndef SCANNER_H
 #define SCANNER_H
 
+#include "stationcomponent.h"
 #include <QObject>
 
-class Scanner
+class Scanner : public StationComponent
 {
 public:
-    Scanner();
+    Scanner(StationComponent *parent);
 };
 
 #endif // SCANNER_H

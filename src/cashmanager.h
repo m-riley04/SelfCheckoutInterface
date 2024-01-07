@@ -1,13 +1,14 @@
 #ifndef CASHMANAGER_H
 #define CASHMANAGER_H
 
+#include "stationcomponent.h"
 #include <QObject>
 
-class CashManager : public QObject
+class CashManager : public StationComponent
 {
-    Q_OBJECT
+    //Q_OBJECT
 public:
-    explicit CashManager(QObject *parent = nullptr);
+    explicit CashManager(StationComponent *parent = nullptr);
 
 signals:
 };

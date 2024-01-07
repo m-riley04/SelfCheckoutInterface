@@ -1,9 +1,9 @@
 #ifndef CARDREADER_H
 #define CARDREADER_H
 
-#include <QObject>
+#include "stationcomponent.h"
 
-class CardReader : public QObject
+class CardReader : public StationComponent
 {
     Q_OBJECT
 public:

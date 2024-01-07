@@ -1,5 +1,5 @@
 #include "cardreader.h"
 
-CardReader::CardReader(QObject *parent)
-    : QObject{parent}
+CardReader::CardReader(StationComponent *parent)
+    : StationComponent{parent}
 {}

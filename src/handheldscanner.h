@@ -1,13 +1,12 @@
 #ifndef HANDHELDSCANNER_H
 #define HANDHELDSCANNER_H
 
-#include <QObject>
 #include "scanner.h"
 
 class HandheldScanner : public Scanner
 {
 public:
-    HandheldScanner();
+    HandheldScanner(Scanner *parent = nullptr);
 };
 
 #endif // HANDHELDSCANNER_H

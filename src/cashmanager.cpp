@@ -1,5 +1,5 @@
 #include "cashmanager.h"
 
-CashManager::CashManager(QObject *parent)
-    : QObject{parent}
+CashManager::CashManager(StationComponent *parent)
+    : StationComponent{parent}
 {}

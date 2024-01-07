@@ -1,3 +1,5 @@
 #include "statuslight.h"
 
-StatusLight::StatusLight() {}
+StatusLight::StatusLight(StationComponent *parent)
+    : StationComponent{parent}
+{}

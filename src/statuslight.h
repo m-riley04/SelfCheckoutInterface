@@ -1,12 +1,12 @@
 #ifndef STATUSLIGHT_H
 #define STATUSLIGHT_H
 
-#include <QObject>
+#include "stationcomponent.h"
 
-class StatusLight
+class StatusLight : public StationComponent
 {
 public:
-    StatusLight();
+    explicit StatusLight(StationComponent *parent = nullptr);
 };
 
 #endif // STATUSLIGHT_H
