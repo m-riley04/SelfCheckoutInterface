@@ -29,6 +29,13 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         src/handheldscanner.h src/handheldscanner.cpp
         src/cashmanager.h src/cashmanager.cpp
         src/cardreader.h src/cardreader.cpp
+        src/scale.h src/scale.cpp
+        src/receiptprinter.h src/receiptprinter.cpp
+        src/camera.h src/camera.cpp
+        src/station.h src/station.cpp
+        src/stationcomponent.h src/stationcomponent.cpp
+        src/item.ui
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SelfCheckoutInterface APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
