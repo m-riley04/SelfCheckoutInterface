@@ -23,6 +23,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(SelfCheckoutInterface
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+
+        src/statuslight.h src/statuslight.cpp
+        src/scanner.h src/scanner.cpp
+        src/handheldscanner.h src/handheldscanner.cpp
+        src/cashmanager.h src/cashmanager.cpp
+        src/cardreader.h src/cardreader.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SelfCheckoutInterface APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
