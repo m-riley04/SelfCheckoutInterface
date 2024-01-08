@@ -45,9 +45,6 @@ signals:
     void transactionConfirmed();
     // Signal for if the transaction was declined
     void transactionDeclined();
-
-    // Signal for any errors that occur while using the card reader
-    void error(QString &msg);
 };
 
 #endif // CARDREADER_H
