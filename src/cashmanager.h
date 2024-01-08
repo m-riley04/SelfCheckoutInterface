@@ -11,6 +11,12 @@ public:
     explicit CashManager(StationComponent *parent = nullptr);
 
 signals:
+    // Signal for when cash machine dispenses cash
+    void dispensedCash(double total);
+    // Signal for when a cash bill has been inputted
+    void billInputted();
+    // Signal for when a coin has been inputted
+    void coinInputted();
 };
 
 #endif // CASHMANAGER_H
