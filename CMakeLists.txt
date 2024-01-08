@@ -35,6 +35,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         src/station.h src/station.cpp
         src/stationcomponent.h src/stationcomponent.cpp
         src/item.ui
+        src/item.h src/item.cpp
 
     )
 # Define target properties for Android with Qt 6 as:
