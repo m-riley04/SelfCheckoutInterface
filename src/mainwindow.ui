@@ -205,7 +205,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page_scan">
      <widget class="QListView" name="list_items">
@@ -317,6 +317,54 @@
         </widget>
        </item>
       </layout>
+     </widget>
+     <widget class="QLabel" name="label_subtotal">
+      <property name="geometry">
+       <rect>
+        <x>588</x>
+        <y>345</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>19</pointsize>
+       </font>
+      </property>
+      <property name="midLineWidth">
+       <number>4</number>
+      </property>
+      <property name="text">
+       <string>$0.00</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_subtotal_2">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>320</y>
+        <width>201</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="midLineWidth">
+       <number>4</number>
+      </property>
+      <property name="text">
+       <string>Subtotal</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="page_payment"/>

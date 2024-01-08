@@ -18,6 +18,12 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void clicked_help();
+    void clicked_employee();
+    void clicked_cancelTransaction();
+    void clicked_completePurchase();
+
 private:
     Ui::MainWindow *ui;
     Station station;
